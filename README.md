@@ -1,7 +1,10 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+<<<<<<< HEAD
+# Trilha HTML - Dio.me :heart_eyes:
+
+## Módulo 02 - HTML I - Conceitos Básicos :arrow_backward:
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
+
 - Formulários
 - Estruturação e formatação de texto
 - Mídias
@@ -9,18 +12,19 @@ Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que v
 
 Além de outros recursos falados nas aulas!
 
-## Instruções
+## Instruções :arrow_backward:
+
 1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
 2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
+   - Página Principal
+   - Sobre a clínica
+   - Horário de Atendimento
+   - Contato
 3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
 
 Abaixo como cada página deve ser criada e estruturada.
 
-### Estrutura das páginas
+### Estrutura das páginas :arrow_backward:
 
 Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
 
@@ -29,46 +33,53 @@ Todas as páginas terão que seguir um padrão pré-definido. Como não aprendem
 \* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
 
 No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
+
+### Página Principal :arrow_backward:
+
 1. Deve ter uma imagem no **Header**.
 2. Em **Content** uma breve descrição sobre a clínica.
 3. **Menu** e **Footer** padrões em todas as páginas.
 
-### Sobre a clínica
+### Sobre a clínica :arrow_backward:
+
 1. Deve ter uma imagem diferente no **Header**.
 2. Em **Content** um texto falando sobre a clínica.
 3. **Menu** e **Footer** padrões em todas as páginas.
 
-### Horário de Atendimento
+### Horário de Atendimento :arrow_backward:
+
 1. Deve ter uma imagem diferente no **Header**.
 2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+| Serviços      | Segunda a Sexta | Sábados   | Feriados  |
+| ------------- | --------------- | --------- | --------- |
+| Clínica geral | 08h - 19h       | 08h - 14h | 08h - 14h |
+| Psicologia    | 08h - 19h       | 08h - 14h | 08h - 14h |
+| Pediatria     | 08h - 19h       | 08h - 18h | -         |
+| Oftalmologia  | 08h - 19h       | 08h - 18h | -         |
+|               |                 |           |           |
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+3.**Menu** e **Footer** padrões em todas as páginas.
 
+### Contato :arrow_backward:
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+1. Deve ter uma imagem diferente no **Header**. :smile:
+2. Em **Content** deve ter: :smile:
+   - Os telefones de contato (celular e whatsapp)
+   - Endereço completo da clínica
+   - Um Iframe com o Google Maps apontando o endereço da clínica
+   - Um formulário de contato com:
+     - Nome (type="text")
+     - E-mail (type="email")
+     - Assunto (type="text")
+     - Mensagem (textarea)
+     - Botões de envias e limpar formulário
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+3. **Menu** e **Footer** padrões em todas as páginas. :smile:
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site!
 
-Bora pra cima!
+Bora pra cima! :rocket:
+=======
+# trilha-html-modulo-2
+>>>>>>> parent of 4efb87a... README atualizado e página de template criado
