@@ -80,6 +80,3 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site!
 
 Bora pra cima! :rocket:
-=======
-# trilha-html-modulo-2
->>>>>>> parent of 4efb87a... README atualizado e página de template criado
