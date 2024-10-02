@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Trilha HTML - Dio.me :heart_eyes:
 
 ## Módulo 02 - HTML I - Conceitos Básicos :arrow_backward:

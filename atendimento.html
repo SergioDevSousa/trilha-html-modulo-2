@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica DogCare</title>
-    <link rel="stylesheet" href="./src/base.css">
+    <link rel="stylesheet" href="./src/styles.css">
 </head>
 <body>
     <div class="wrapper">
@@ -21,17 +21,61 @@
 
         <div class="main">
             <div class="header">
-                <img src="./src/image/banner-atendimento.png" title="banner da clinica" alt="banner-clinica"/>
+                <img src="./src/image/banner-nosso-servico.png" title="banner da clinica" alt="banner-clinica"/>
             </div>
     
-            <div class="content">
-                Aqui sobre o atendimento
-                <!-- Aqui vai o seu conteúdo -->
+            <div class="content-table">
+                <p>Escolha uma especialidade e agende a consulta do seu Pet conforme horários disponíveis</p>
+                <h1>Tabela de valores e Atendimento</h1>
+                <table class="container-table">
+                    <thead>
+                        <tr>
+                            <th>Especialidades</th>
+                            <th>Segunda a sexta</th>
+                            <th>Sábado</th>
+                            <th>Feriado</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Serviços">Clinico Geral</td>
+                            <td data-label="Segunda a sexta">08:00 as 19:00</td>
+                            <td data-label="Sábado">08:00 as 14:00</td>
+                            <td data-label="Feriado">08:00 as 14:00</td>
+                            <td data-label="Valor">20.00</td>
+                        </tr> 
+                        <tr>
+                            <td data-label="Serviços">Psicologia</td>
+                            <td data-label="Segunda a sexta">08:00 as 19:00</td>
+                            <td data-label="Sábado">08:00 as 14:00</td>
+                            <td data-label="Feriado">08:00 as 14:00</td>
+                            <td data-label="Valor">20.00</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Serviços">Pediatria</td>
+                            <td data-label="Segunda a sexta">08:00 as 19:00</td>
+                            <td data-label="Sábado">08:00 as 18:00</td>
+                            <td data-label="Feriado"> - as - </td>
+                            <td data-label="Valor">20.00</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Serviços">Oftalmologia</td>
+                            <td data-label="Segunda a sexta">08:00 as 19:00</td>
+                            <td data-label="Sábado">08:00 as 18:00</td>
+                            <td data-label="Feriado"> - as - </td>
+                            <td data-label="Valor">20.00</td>
+                        </tr>                  
+                    </tbody>
+                </table>
             </div>
-    
+            <hr>
             <div class="footer">
-                <p>Endereço: Rua Marechal Almeida Barreto, 520 Centro <strong>(por trás do Mercado Central)</strong></p>
-                <p>Cidade: João Pessoa-PB CEP: 58053-900</p>
+                <p>
+                    Endereço: Rua Marechal Almeida Barreto, 520 Centro
+                    <strong>(por trás do Mercado Central)</strong><br>
+                    Cidade: João Pessoa-PB CEP: 58053-900
+                </p>
             </div>
         </div>
     </div>
