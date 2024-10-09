@@ -1,43 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica DogCare</title>
-    <link rel="stylesheet" href="./src/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="atendimento.html">Atendimento</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="atendimento.html">Atendimento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img
+            src="./src/image/banner-atendimento.png"
+            title="banner da clinica"
+            alt="banner-clinica"
+          />
         </div>
 
-        <div class="main">
-            <div class="header">
-                <img src="./src/image/banner-atendimento.png" title="banner da clinica" alt="banner-clinica"/>
-            </div>
-    
-            <div class="content">
-                <div class="content-map">
-                    <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15833.976376135824!2d-34.89551885!3d-7.1843221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1727835899847!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-            <hr>
-            <div class="footer">
-                <p>
-                    Endereço: Rua Marechal Almeida Barreto, 520 Centro
-                    <strong>(por trás do Mercado Central)</strong><br>
-                    Cidade: João Pessoa-PB CEP: 58053-900
-                </p>
-            </div>
+        <div class="content-contato">
+          <div class="content-map">
+            <h2>Onde estamos.</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15833.976376135824!2d-34.89551885!3d-7.1843221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1727835899847!5m2!1spt-BR!2sbr"
+              width="500"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p>Atendimento 24h <strong>(83) 99371-1271</strong> ou Whatsapp <strong>(83) 99371-1271</strong></p>
+          </div>
+
+          <div class="content-contactForm">
+            <h2>Formulário de Contato</h2>
+
+                <form id="contactForm" action="#" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required />
+
+                <label for="message">Mensagem:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <input type="submit" value="Enviar" />
+                </form>
+          </div>
         </div>
+        <hr />
+        <div class="footer">
+          <p>
+            Endereço: Rua Marechal Almeida Barreto, 520 Centro
+            <strong>(por trás do Mercado Central)</strong><br />
+            Cidade: João Pessoa-PB CEP: 58053-900
+          </p>
+          
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -137,28 +137,20 @@ body {
     text-align: center;
 }
 
-/* styles do contato */
-.content-map iframe{
-    padding: 2rem;
-}
-
-/* Estilo dos cabeçalhos */
 .container-table thead th {
     background-color: #007bff;
     color: white;
     text-align: center;
-    padding: 12px;
-    border: 1px solid #ddd;
+    padding: 1.2rem;
+    border: 0.1rem solid #ddd;
 }
-
 
 .container-table tbody td {
     text-align: center;
-    padding: 12px;
-    border: 1px solid #ddd;
+    padding: 1.2rem;
+    border: 0.1rem solid #ddd;
     color: #333;
 }
-
 
 .container-table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -167,6 +159,61 @@ body {
 .container-table tbody tr:hover {
     background-color: #e9ecef;
 }
+
+/* styles do contato */
+.content-contato{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.content-contato h2{
+    font-size: 2rem;
+    margin: 2rem 0 0 2rem
+}
+.content-map iframe{
+    padding: 2rem;
+}
+.content-map p{
+    margin-left: 2rem;
+}
+.content-map strong{
+    color: red;
+}
+.content-contactForm h2, p{
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+label{
+    font-size: 1.5rem;
+}
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 50rem;
+    margin: auto;
+}
+input, textarea{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+input[type="submit"]:hover {
+    background-color: #887bff;
+}
+
 /* styles do rodape */
 .footer p{
     background-color: white;
